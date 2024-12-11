@@ -1,0 +1,73 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    position: relative;
+    bottom: 70px;
+    z-index: 1;
+    font-size: 40px;
+}
+
+.signupbox{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 34vw;
+    height: 70vh;
+    background-image: url("waterfall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 3px 20px solid black;
+    border-radius: 20px;
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.user i{
+    font-size: 35px;
+}
+
+.user input{
+    width: 22vw;
+    height: 5vh;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+#btn{
+    color: white;
+    background-color: blue;
+    width: 8vw;
+    height: 5vh;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
